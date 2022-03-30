@@ -1,0 +1,304 @@
+/* Import fonts */
+@font-face {
+  font-family: HK Grotesk;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+    format("opentype");
+}
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+
+/******************************************************************************
+END Glitch hello-app default styles
+******************************************************************************/
+
+body {
+  font-family: HK Grotesk;
+  background: hsl(227, 10%, 10%);
+  color: white; 
+  background-image:url("https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/matrix%20background.gif?v=1647147142202"); 
+}
+/* Page structure */
+.wrapper {
+  min-height: var(--wrapper-height);
+  display: grid;
+  place-items: center;
+  margin: 0 1rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Very light scaling for our illustration */
+.title {
+  color: Chartreuse;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 105%;
+  margin: 0;
+  
+}
+
+/* Very light scaling for our illustration */
+.illustration {
+  max-width: 100%;
+  max-height: var(--image-max-width);
+  margin-top: var(--image-margin);
+}
+
+/* Instructions */
+.instructions {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.95);
+  max-width:95%;
+  
+}
+
+
+/* Button - Add it from the README instructions */
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  padding: 10px;
+  transition: 500ms;
+  
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+    text-shadow: 0 1px 0 darkgreen, 0 2px 0 darkgreen,
+             0 3px 0 darkgreen, 0 4px 0 darkgreen,
+             0 5px 0 darkgreen, 0 6px 0 darkgreen,
+             0 7px 0 darkgreen, 0 8px 7px rgba(0, 0, 0, 0.4),
+             0 9px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Subheading */
+h2 {
+  color: Chartreuse;
+    text-shadow: 0 .5px 0 darkgreen, 0 1px 0 darkgreen,
+             0 1.5px 0 darkgreen, 0 2px 0 darkgreen,
+             0 2.5px 0 darkgreen, 0 3px 0 darkgreen,
+             0 3.5px 0 darkgreen, 0 4px 7px rgba(0, 0, 0, 0.4),
+             0 4.5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#textParentDiv{
+  display: flex;
+  max-width:65%;
+}
+
+
+#roundtrackerbox{
+  font-family: verdana, arial, sans-serif; 
+  text-align:center;
+  flex:1;
+ 
+}
+
+
+#highscorebox {
+  font-family: verdana, arial, sans-serif; 
+  text-align:center;
+  flex:1;
+  
+}
+
+#speedscorebox {
+  font-family: verdana, arial, sans-serif; 
+  text-align:center;
+  flex:1;
+ 
+}
+
+#strikescorebox {
+  font-family: verdana, arial, sans-serif; 
+  text-align:center;
+  flex:1;
+  
+}
+
+#roundTracker{
+  font-size:30px;
+}
+#highScoreText{
+  font-size:30px;
+}
+#speedScoreText{
+  font-size:30px;
+}
+#strikeScoreText{
+  font-size:30px;
+}
+
+
+#instructionsTextBox{
+  max-width:80%;
+  margin:auto;
+  
+}
+#buttonHolder{
+  padding-top:10px;
+  
+}
+
+#buttonHolder
+button{
+  width:200px;
+  height:75px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.9);
+   margin:15px;
+  
+  
+}
+#buttonHolder
+button:hover{
+  color:white;
+  border-color:white;
+  box-shadow: 0px 5px 30px 0px white;
+  
+  
+}
+.standardcss{
+  color:Chartreuse;
+  border:2px solid Chartreuse;
+}
+.endlesscss{
+  color:DarkTurquoise;
+  border:2px solid DarkTurquoise;
+}
+.speedcss{
+  color:Crimson;
+  border:2px solid Crimson;
+}
+.strikecss{
+  color:Gold;
+  border:2px solid Gold;
+}
+
+
+.hidden{
+  display: none;
+}
+
+
+
+#gameButtonArea{
+
+ 
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:15px;
+  border-radius: 10px;
+  
+}
+
+.memoryBtns{
+      height: 100px;
+      position: relative;
+      width: 200px;
+}
+    
+#button1 {
+    border: 10px solid;
+    background: rgba(0, 0, 0, 0.8);
+    border-color: Chartreuse;
+   box-shadow: 0px 0px 50px 4px Chartreuse;
+    
+}
+#button1:active, #button1.lit {
+    background:Chartreuse;
+  box-shadow: 0px 0px 75px 4px Chartreuse;
+}
+
+#button2 {
+    border: 10px solid;
+    background: rgba(0, 0, 0, 0.8);
+    border-color: DarkTurquoise;
+  box-shadow: 0px 0px 50px 4px DarkTurquoise;
+}
+#button2:active, #button2.lit {
+    background:DarkTurquoise;
+    box-shadow: 0px 0px 75px 4px DarkTurquoise;
+}
+
+#button3 {
+    border: 10px solid;
+    background: rgba(0, 0, 0, 0.8);
+    border-color: Crimson;
+   box-shadow: 0px 0px 50px 4px Crimson;
+}
+#button3:active, #button3.lit {
+    background:Crimson;
+    box-shadow: 0px 0px 75px 4px Crimson;
+}
+
+#button4 {
+    border: 10px solid;
+    background: rgba(0, 0, 0, 0.8);
+    border-color: Gold;
+   box-shadow: 0px 0px 50px 4px Gold;
+}
+#button4:active, #button4.lit {
+    background:Gold;
+     box-shadow: 0px 0px 75px 4px Gold;
+  
+}
+
+#button1:hover{
+
+   box-shadow: 0px 0px 75px 4px Chartreuse;
+}
+#button2:hover{
+ 
+  box-shadow: 0px 0px 75px 4px DarkTurquoise;
+}
+#button3:hover{
+  
+  box-shadow: 0px 0px 75px 4px Crimson;
+}
+#button4:hover{
+  
+   box-shadow: 0px 0px 75px 4px Gold;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: Chartreuse;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #59b300;
+}
