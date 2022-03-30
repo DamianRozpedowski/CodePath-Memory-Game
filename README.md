@@ -66,10 +66,10 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 - In the Speed Up game, rounds get progressively faster                        
 ![Speed Up Gameplay](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif6.gif?v=1648610927727)
 
-- In the 3 Strikes game, you have three lives, fail three times and you lose
+- In the 3 Strikes game, you have three lives, fail three times and you lose                  
 ![3 Strikes Gameplay](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif7.gif?v=1648610927937)
 
-- A high score system is implemented for each of the modes except for Standard
+- A high score system is implemented for each of the modes except for Standard                
 ![High Score System](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif8.gif?v=1648610927677)
 
 ## Reflection Questions
