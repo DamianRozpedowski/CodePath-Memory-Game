@@ -48,22 +48,22 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-- Selecting the game mode
+- Selecting the game mode                                                
 ![Selecting Gamemodes](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif1.gif?v=1648610927650)
 
-- Repeat after the flashing sequence
+- Repeat after the flashing sequence                                              
 ![Button Flashing Sequence, User follows along](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif2.gif?v=1648610927846)
 
-- You Lose if you don't repeat the pattern
+- You Lose if you don't repeat the pattern                                        
 ![Standard Lost](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif3.gif?v=1648610927444)
 
-- In the standard mode you win after 8 rounds
+- In the standard mode you win after 8 rounds                                      
 ![Standard Win](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif4.gif?v=1648610927753)
 
-- Sequences are always randomly generated
+- Sequences are always randomly generated                                                      
 ![Random Sequences Every Time](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif5.gif?v=1648610927707)
 
-- In the Speed Up game, rounds get progressively faster
+- In the Speed Up game, rounds get progressively faster                        
 ![Speed Up Gameplay](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif6.gif?v=1648610927727)
 
 - In the 3 Strikes game, you have three lives, fail three times and you lose
