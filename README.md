@@ -49,28 +49,28 @@ The following **additional** features are implemented:
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
 - Selecting the game mode
-![Selecting Gamemodes](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif1.gif?v=1647213122162)
+![Selecting Gamemodes](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif1.gif?v=1647213122162 | width=100)
 
 - Repeat after the flashing sequence
-![Button Flashing Sequence, User follows along](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif2.gif?v=1647213116242)
+![Button Flashing Sequence, User follows along](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif2.gif?v=1647213116242 | width=100)
 
 - You Lose if you don't repeat the pattern
-![Standard Lost](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif3.gif?v=1647213111770)
+![Standard Lost](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif3.gif?v=1647213111770 | width=100)
 
 - In the standard mode you win after 8 rounds
-![Standard Win](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif4.gif?v=1647213112328)
+![Standard Win](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif4.gif?v=1647213112328 | width=100)
 
 - Sequences are always randomly generated
-![Random Sequences Every Time](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif5.gif?v=1647213117516)
+![Random Sequences Every Time](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif5.gif?v=1647213117516 | width=100)
 
 - In the Speed Up game, rounds get progressively faster
-![Speed Up Gameplay](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif6.gif?v=1647213123979)
+![Speed Up Gameplay](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif6.gif?v=1647213123979 | width=100)
 
 - In the 3 Strikes game, you have three lives, fail three times and you lose
-![3 Strikes Gameplay](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif7.gif?v=1647213122553)
+![3 Strikes Gameplay](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif7.gif?v=1647213122553 | width=100)
 
 - A high score system is implemented for each of the modes except for Standard
-![High Score System](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif8.gif?v=1647213119081)
+![High Score System](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif8.gif?v=1647213119081 | width=100)
 
 ## Reflection Questions
 
