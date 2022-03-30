@@ -50,6 +50,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 - Selecting the game mode
 ![Selecting Gamemodes](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif1.gif?v=1647213122162)
+<img src="https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif1.gif?v=1647213122162" width="250" height="250"/>
 
 - Repeat after the flashing sequence
 ![Button Flashing Sequence, User follows along](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif2.gif?v=1647213116242)
