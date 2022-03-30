@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/logo.JPG?v=1647208670816" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Memory Game</title>
+
+    
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/logo.JPG?v=1647208670816" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Memory Game" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/logo.JPG?v=1647208670816" />
+    <meta
+      property="og:description"
+      content="A memory game build for CodePath by Damian Rozpedowski."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/logo.JPG?v=1647208670816"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  
+  <body>
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <div class="instructions">
+        <!-- This is the start of content for our page -->
+          <center>
+        <h1 class="title">Memory Game</h1>
+
+        <!-- Instructions on using this project -->
+   
+          <h2>How to Play</h2>
+          </center>
+          
+          <p id="instructionsTextBox">
+            Welcome to my Memory Game! Currently you can mess around with the buttons below. If you would like to start the game select a gamemode. Repeat the pattern by clicking the buttons in the correct sequence.
+            <br><br><strong>Gamemodes</strong>
+            <br><strong><em>Standard: Random Pattern, limited to 8 rounds, get to the end to win.</em></strong>
+            <br><strong><em>Endless: See how far you can get with an endless cycle of randomized patterns.</em></strong>
+            <br><strong><em>Speed Up: Speeds up the game after every round. Endless Amount of Rounds with a random pattern every time.</em></strong>
+            <br><strong><em>3 Strikes: Three Strikes and you're out, after each mistake you will be alerted. Endless Amount of Rounds with a random pattern every time.</em></strong>
+            <br> <br> <strong>WARNING: If stop button is clicked while sequence is in the middle of an audio cue it may glitch. Please wait a moment in between switching gamemodes.</strong>
+          </p>
+             
+          <center>
+          <div id="buttonHolder">
+          <button id="startBtn" class="standardcss" onclick="startGame()">Standard</button>
+          <button id="stopBtn" class="hidden standardcss" onclick="stopGame()">Stop</button>
+            
+          <button id="endlessBtn" class="endlesscss" onclick="endlessGame()">Endless</button>
+          <button id="stopEndlessBtn" class="hidden endlesscss" onclick="stopEndlessGame()">Stop</button>
+            
+          <button id="speedBtn" class="speedcss" onclick="speedGame()">Speed Up</button>
+          <button id="stopSpeedBtn" class="hidden speedcss" onclick="stopSpeedGame()">Stop</button>  
+            
+          <button id="strikeBtn" class="strikecss" onclick="strikeGame()">3 Strikes</button>
+          <button id="stopStrikeBtn" class="hidden strikecss" onclick="stopStrikeGame()">Stop</button>
+          </div>
+          
+          <div id="textParentDiv">
+            <div id="roundtrackerbox">
+              <p> Round Number </p>
+              <p id="roundTracker"></p>
+            </div>
+            <div id="highscorebox">
+              <p>Endless High Score</p>
+              <p id="highScoreText"></p>
+            </div>
+            <div id="speedscorebox">
+              <p>Speed Up High Score</p>
+              <p id="speedScoreText"></p>
+            </div>
+            <div id="strikescorebox">
+              <p>3 Strikes High Score</p>
+              <p id="strikeScoreText"></p>
+            </div>
+          </div>
+       
+          <div id="gameButtonArea"> 
+            <button id="button1" class = "memoryBtns" onmousedown="startTone(1)" onclick="guess(1)" onmouseup="stopTone()"></button>
+            <button id="button2" class = "memoryBtns" onmousedown="startTone(2)" onclick="guess(2)" onmouseup="stopTone()"></button>
+            <button id="button3" class = "memoryBtns" onmousedown="startTone(3)" onclick="guess(3)" onmouseup="stopTone()"></button>
+            <button id="button4" class = "memoryBtns" onmousedown="startTone(4)" onclick="guess(4)" onmouseup="stopTone()"></button>
+          </div>
+            
+         <div style="height:50px; width:100%; clear:both;"></div>
+         </center>    
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
