@@ -49,10 +49,12 @@ The following **additional** features are implemented:
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
 - Selecting the game mode
-![Selecting Gamemodes](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif1.gif?v=1648610927650)
+![Selecting Gamemodes]
+(https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif1.gif?v=1648610927650)
 
 - Repeat after the flashing sequence
-![Button Flashing Sequence, User follows along](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif2.gif?v=1648610927846)
+![Button Flashing Sequence, User follows along]
+(https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif2.gif?v=1648610927846)
 
 - You Lose if you don't repeat the pattern
 ![Standard Lost](https://cdn.glitch.global/04b9f7ae-531e-4fea-9bf7-d45021571efa/gif3.gif?v=1648610927444)
